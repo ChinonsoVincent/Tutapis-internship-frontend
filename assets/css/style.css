@@ -1,0 +1,28 @@
+.card {
+	width: 373px;
+	height: 599px;
+	border: 2px solid #0093dd;
+	border-radius: 30px;
+}
+
+.card-img-top {
+	width: 296px;
+	height: 310px;
+}
+
+.card-body {
+	font-size: 14px;
+	color: #0093dd;
+	width: 296px;
+	padding-bottom: 0;
+}
+
+.card-title {
+	margin-bottom: 1px;
+}
+
+.card-body span {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 10px;
+}
