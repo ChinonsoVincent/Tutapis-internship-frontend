@@ -1,14 +1,24 @@
-.testimonial img {
-	width: 80%;
-}
-
-/*************************** card ***********************************/
-.teamMembers h4 {
+.sectionHeaders {
 	font-size: 36px;
 	color: #054667;
 	font-weight: 600;
 }
 
+/*************************** Interns ***********************************/
+.testimonial img {
+	width: 100%;
+}
+
+.internName {
+	color: #0093dd;
+	font-size: 36px;
+}
+
+.internComment {
+	font-size: 20px;
+}
+
+/*************************** card ***********************************/
 .card {
 	width: 373px;
 	height: 599px;
