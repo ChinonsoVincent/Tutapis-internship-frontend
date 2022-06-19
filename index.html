@@ -10,8 +10,58 @@
 		<title>Tutapis Internship</title>
 	</head>
 	<body>
+		<!--------------------------------------- Navbar Menu ------------------------------------------->
+		<nav class="navbar navbar-expand-xl">
+			<div class="container-fluid container-lg">
+				<a class="navbar-brand" href="#">
+					<img src="/assets/images/tutapis.jpg" alt="Tutapis" />
+				</a>
+				<button
+					class="navbar-toggler custom-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#TutapisNav"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="TutapisNav">
+					<ul class="navbar-nav justify-content-between">
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#home"> Home </a>
+						</li>
+
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#about"> About </a>
+						</li>
+
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#learningPath"> Learning Path </a>
+						</li>
+
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#certifications"> Certifications </a>
+						</li>
+
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#donate"> Donate </a>
+						</li>
+
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#faqs"> FaQs </a>
+						</li>
+					</ul>
+
+					<form class="">
+						<i class="fa-solid fa-magnifying-glass"></i>
+						<input type="search" class="form-control" placeholder="Search" />
+					</form>
+				</div>
+			</div>
+		</nav>
+		<!---------------------------------- End of Navbar Menu -------------------------------------------->
+
 		<!------------------------------------ testimonial section ------------------------------------------>
-		<section class="testimonial py-5 bg-warning">
+		<section class="testimonial py-5">
 			<div class="container">
 				<h4 class="text-center sectionHeaders pb-4">TESTIMONIALS</h4>
 
@@ -183,13 +233,14 @@
 							</div>
 				------------>
 		</section>
+		<!------------------------------------ End testimonial section ------------------------------------------>
 
 		<!------------------------------------ Meet Our Team Members section ----------------------------------------->
 		<section class="teamMembers py-5 bg-primary">
 			<div class="container">
 				<h4 class="text-center sectionHeaders pb-4">MEET OUR TEAM MEMBERS</h4>
 
-				<!-------------------------------------- Carousel --------------------------------------------------->
+				<!-------------------------------------- Team Members  Carousel --------------------------------------------------->
 				<div id="teamMembersCarousel" class="carousel slide" data-bs-ride="carousel">
 					<!-- The slideshow/carousel -->
 					<div class="carousel-inner">
