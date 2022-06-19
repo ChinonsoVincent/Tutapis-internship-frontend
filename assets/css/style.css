@@ -4,17 +4,18 @@
 	font-weight: 600;
 }
 
-/*************************** Interns ***********************************/
+/*************************** testimonials ***********************************/
 .testimonial img {
 	width: 100%;
+	min-width: 324px;
 }
 
-.internName {
+.testimonialName {
 	color: #0093dd;
 	font-size: 36px;
 }
 
-.internComment {
+.testimonialComment {
 	font-size: 20px;
 }
 
@@ -57,5 +58,3 @@
 .icons {
 	font-size: 30px;
 }
-
-/******************************** carousel ********************************/
