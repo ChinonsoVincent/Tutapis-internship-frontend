@@ -11,7 +11,7 @@
 	</head>
 	<body>
 		<!--------------------------------------- Navbar Menu ------------------------------------------->
-		<nav class="navbar navbar-expand-xl">
+		<nav class="navbar navbar-expand-xl sticky-top border-bottom">
 			<div class="container-fluid container-lg">
 				<a class="navbar-brand" href="#">
 					<img src="/assets/images/tutapis.jpg" alt="Tutapis" />
@@ -63,7 +63,7 @@
 		<!------------------------------------ testimonial section ------------------------------------------>
 		<section class="testimonial py-5">
 			<div class="container">
-				<h4 class="text-center sectionHeaders pb-4">TESTIMONIALS</h4>
+				<h4 class="text-center sectionHeaders pb-5">TESTIMONIALS</h4>
 
 				<!----------------------- testimonial Carousel ---------------------------->
 				<div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -209,7 +209,8 @@
 				</div>
 			</div>
 
-			<!----------- GRID
+			<!----------- If you had to do it with GRID instead of Flex, this would be it, although i think the flex is better...
+
 				<div class="row mx-5">
 								<div class="col-lg-1"></div>
 								<div class="col-lg-3">
@@ -236,119 +237,85 @@
 		<!------------------------------------ End testimonial section ------------------------------------------>
 
 		<!------------------------------------ Meet Our Team Members section ----------------------------------------->
-		<section class="teamMembers py-5 bg-primary">
+		<section class="teamMembers py-5">
 			<div class="container">
-				<h4 class="text-center sectionHeaders pb-4">MEET OUR TEAM MEMBERS</h4>
+				<h4 class="text-center sectionHeaders pb-5">MEET OUR TEAM MEMBERS</h4>
 
-				<!-------------------------------------- Team Members  Carousel --------------------------------------------------->
-				<div id="teamMembersCarousel" class="carousel slide" data-bs-ride="carousel">
-					<!-- The slideshow/carousel -->
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<div class="person">
-								<div class="card p-4 text-center">
-									<img
-										class="card-img-top text-center"
-										src="/assets/images/avatar-gf066499fd_640.png"
-										alt="Avater"
-									/>
-									<div class="card-body">
-										<h5 class="card-title">UCHE KUNLE</h5>
+				<div class="teamMember d-xl-flex justify-content-around">
+					<div class="mx-auto mb-4 card p-4 text-center">
+						<img
+							class="card-img-top text-center"
+							src="/assets/images/avatar-gf066499fd_640.png"
+							alt="Avater"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">UCHE KUNLE</h5>
 
-										<span>Content Creator</span>
+							<span>Content Creator</span>
 
-										<p class="card-text pt-2">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-											morbi purus. Lorem ipsum dolor sit amet,
-										</p>
+							<p class="card-text pt-2">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. morbi
+								purus. Lorem ipsum dolor sit amet,
+							</p>
 
-										<div class="d-flex justify-content-around px-3">
-											<i class="icons fa-brands fa-facebook"></i>
-											<i class="icons fa-brands fa-linkedin"></i>
-											<i class="icons fa-brands fa-instagram-square"></i>
-											<i class="icons fa-brands fa-twitter-square"></i>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="carousel-item">
-							<div class="person">
-								<div class="card p-4 text-center">
-									<img
-										class="card-img-top text-center"
-										src="/assets/images/avatar-gf066499fd_640.png"
-										alt="Avater"
-									/>
-									<div class="card-body">
-										<h5 class="card-title">UCHE KUNLE</h5>
-
-										<span>Content Creator</span>
-
-										<p class="card-text pt-2">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-											morbi purus. Lorem ipsum dolor sit amet,
-										</p>
-
-										<div class="d-flex justify-content-around px-3">
-											<i class="icons fa-brands fa-facebook"></i>
-											<i class="icons fa-brands fa-linkedin"></i>
-											<i class="icons fa-brands fa-instagram-square"></i>
-											<i class="icons fa-brands fa-twitter-square"></i>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="carousel-item">
-							<div class="person">
-								<div class="card p-4 text-center">
-									<img
-										class="card-img-top text-center"
-										src="/assets/images/avatar-gf066499fd_640.png"
-										alt="Avater"
-									/>
-									<div class="card-body">
-										<h5 class="card-title">UCHE KUNLE</h5>
-
-										<span>Content Creator</span>
-
-										<p class="card-text pt-2">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-											morbi purus. Lorem ipsum dolor sit amet,
-										</p>
-
-										<div class="d-flex justify-content-around px-3">
-											<i class="icons fa-brands fa-facebook"></i>
-											<i class="icons fa-brands fa-linkedin"></i>
-											<i class="icons fa-brands fa-instagram-square"></i>
-											<i class="icons fa-brands fa-twitter-square"></i>
-										</div>
-									</div>
-								</div>
+							<div class="d-flex justify-content-around px-3">
+								<i class="icons fa-brands fa-facebook"></i>
+								<i class="icons fa-brands fa-linkedin"></i>
+								<i class="icons fa-brands fa-instagram-square"></i>
+								<i class="icons fa-brands fa-twitter-square"></i>
 							</div>
 						</div>
 					</div>
 
-					<!-- Left and right controls/icons -->
-					<button
-						class="carousel-control-prev bg-dark"
-						type="button"
-						data-bs-target="#teamMembersCarousel"
-						data-bs-slide="prev"
-					>
-						<span class="carousel-control-prev-icon"></span>
-					</button>
-					<button
-						class="carousel-control-next bg-dark"
-						type="button"
-						data-bs-target="#teamMembersCarousel"
-						data-bs-slide="next"
-					>
-						<span class="carousel-control-next-icon"></span>
-					</button>
+					<div class="mx-auto mb-4 card p-4 text-center">
+						<img
+							class="card-img-top text-center"
+							src="/assets/images/avatar-gf066499fd_640.png"
+							alt="Avater"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">UCHE KUNLE</h5>
+
+							<span>Content Creator</span>
+
+							<p class="card-text pt-2">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. morbi
+								purus. Lorem ipsum dolor sit amet,
+							</p>
+
+							<div class="d-flex justify-content-around px-3">
+								<i class="icons fa-brands fa-facebook"></i>
+								<i class="icons fa-brands fa-linkedin"></i>
+								<i class="icons fa-brands fa-instagram-square"></i>
+								<i class="icons fa-brands fa-twitter-square"></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="mx-auto mb-4 card p-4 text-center">
+						<img
+							class="card-img-top text-center"
+							src="/assets/images/avatar-gf066499fd_640.png"
+							alt="Avater"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">UCHE KUNLE</h5>
+
+							<span>Content Creator</span>
+
+							<p class="card-text pt-2">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. morbi
+								purus. Lorem ipsum dolor sit amet,
+							</p>
+
+							<div class="d-flex justify-content-around px-3">
+								<i class="icons fa-brands fa-facebook"></i>
+								<i class="icons fa-brands fa-linkedin"></i>
+								<i class="icons fa-brands fa-instagram-square"></i>
+								<i class="icons fa-brands fa-twitter-square"></i>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

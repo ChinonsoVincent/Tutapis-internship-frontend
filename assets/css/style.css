@@ -1,4 +1,8 @@
 /*************************** Nav Bar ***********************************/
+.navbar {
+	background-color: white;
+}
+
 /* Nav brand image */
 .navbar-brand img {
 	width: 177px;
@@ -13,7 +17,7 @@
 
 .nav-link:hover {
 	color: black;
-	background-color: #d9d9d9;
+	text-decoration: underline;
 	border-radius: 10px;
 }
 
@@ -73,6 +77,11 @@
 
 .testimonialComment {
 	font-size: 20px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+	filter: invert(100%);
 }
 
 /*************************** Team Member Section ***********************************/
