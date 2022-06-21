@@ -67,12 +67,12 @@
 /*************************** Testimonials Section ***********************************/
 .testimonial img {
 	width: 100%;
-	min-width: 324px;
+	min-width: 220px;
 }
 
 .testimonialName {
 	color: #0093dd;
-	font-size: 36px;
+	font-size: 30px;
 }
 
 .testimonialComment {
@@ -86,34 +86,26 @@
 
 /*************************** Team Member Section ***********************************/
 .card {
-	width: 373px;
-	height: 599px;
 	border: 5px solid #0093dd;
 	border-radius: 30px;
-}
-
-.card-img-top {
-	width: 296px;
-	height: 310px;
 }
 
 .card-body {
 	font-size: 14px;
 	color: #0093dd;
-	width: 296px;
 	padding-bottom: 0;
-}
-
-.card-title {
-	font-size: 40px;
-	margin-bottom: 1px;
-	font-weight: 600;
 }
 
 .card-body span {
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 10px;
+}
+
+.card-title {
+	font-size: 35px;
+	margin-bottom: 1px;
+	font-weight: 600;
 }
 
 .card-text {

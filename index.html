@@ -5,8 +5,26 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Tutapis Internship</title>
+		<!---------------------- Bootstrap -------------------->
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<!---------------------- Owl Carousel -------------------->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+			integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+			integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!---------------------- Font Awesome -------------------->
 		<link rel="stylesheet" href="assets/css/all.min.css" />
+		<!---------------------- Custom CSS -------------------->
 		<link rel="stylesheet" href="assets/css/style.css" />
 	</head>
 	<body>
@@ -208,31 +226,6 @@
 					</button>
 				</div>
 			</div>
-
-			<!----------- If you had to do it with GRID instead of Flex, this would be it, although i think the flex is better...
-
-				<div class="row mx-5">
-								<div class="col-lg-1"></div>
-								<div class="col-lg-3">
-									<img
-										class="rounded h-100"
-										src="assets/images/avatar-gf066499fd_640.png"
-										alt="interns"
-									/>
-								</div>
-								<div class="col-lg-7 bg-light p-3">
-									<h5 class="testimonialName">OKORO UDUMA NDUKWE</h5>
-									<p class="testimonialComment">
-										Joining Tutapis Internship is one of the best Decisions I’ve
-										ever made as it gave me a solid foundation on tech skills
-										required and path to building a successful career in
-										software development and beyond. Through the internship I’ve
-										become a full stack developer (My Dream)
-									</p>
-								</div>
-								<div class="col-lg-1"></div>
-							</div>
-				------------>
 		</section>
 		<!------------------------------------ End testimonial section ------------------------------------------>
 
@@ -241,87 +234,187 @@
 			<div class="container">
 				<h4 class="text-center sectionHeaders pb-5">MEET OUR TEAM MEMBERS</h4>
 
-				<div class="teamMember d-xl-flex justify-content-around">
-					<div class="mx-auto mb-4 card p-4 text-center">
-						<img
-							class="card-img-top text-center"
-							src="assets/images/avatar-gf066499fd_640.png"
-							alt="Avater"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">UCHE KUNLE</h5>
+				<div class="row">
+					<div class="owl-carousel owl-theme">
+						<div class="item">
+							<div class="mx-auto mb-4 card p-4 text-center">
+								<img
+									class="card-img-top text-center"
+									src="assets/images/avatar-gf066499fd_640.png"
+									alt="Avater"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">UCHE KUNLE</h5>
 
-							<span>Content Creator</span>
+									<span>Content Creator</span>
 
-							<p class="card-text pt-2">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. morbi
-								purus. Lorem ipsum dolor sit amet,
-							</p>
+									<p class="card-text pt-1">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										morbi purus. Lorem ipsum dolor sit amet,
+									</p>
 
-							<div class="d-flex justify-content-around px-3">
-								<i class="icons fa-brands fa-facebook"></i>
-								<i class="icons fa-brands fa-linkedin"></i>
-								<i class="icons fa-brands fa-instagram-square"></i>
-								<i class="icons fa-brands fa-twitter-square"></i>
+									<div class="d-flex justify-content-around px-4">
+										<i class="icons fa-brands fa-facebook"></i>
+										<i class="icons fa-brands fa-linkedin"></i>
+										<i class="icons fa-brands fa-instagram-square"></i>
+										<i class="icons fa-brands fa-twitter-square"></i>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
+						<!--------------------End of item-------------------->
 
-					<div class="mx-auto mb-4 card p-4 text-center">
-						<img
-							class="card-img-top text-center"
-							src="assets/images/avatar-gf066499fd_640.png"
-							alt="Avater"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">UCHE KUNLE</h5>
+						<div class="item">
+							<div class="mx-auto mb-4 card p-4 text-center">
+								<img
+									class="card-img-top text-center"
+									src="assets/images/avatar-gf066499fd_640.png"
+									alt="Avater"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">UCHE KUNLE</h5>
 
-							<span>Content Creator</span>
+									<span>Content Creator</span>
 
-							<p class="card-text pt-2">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. morbi
-								purus. Lorem ipsum dolor sit amet,
-							</p>
+									<p class="card-text pt-1">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										morbi purus. Lorem ipsum dolor sit amet,
+									</p>
 
-							<div class="d-flex justify-content-around px-3">
-								<i class="icons fa-brands fa-facebook"></i>
-								<i class="icons fa-brands fa-linkedin"></i>
-								<i class="icons fa-brands fa-instagram-square"></i>
-								<i class="icons fa-brands fa-twitter-square"></i>
+									<div class="d-flex justify-content-around px-4">
+										<i class="icons fa-brands fa-facebook"></i>
+										<i class="icons fa-brands fa-linkedin"></i>
+										<i class="icons fa-brands fa-instagram-square"></i>
+										<i class="icons fa-brands fa-twitter-square"></i>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
+						<!--------------------End of item-------------------->
 
-					<div class="mx-auto mb-4 card p-4 text-center">
-						<img
-							class="card-img-top text-center"
-							src="assets/images/avatar-gf066499fd_640.png"
-							alt="Avater"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">UCHE KUNLE</h5>
+						<div class="item">
+							<div class="mx-auto mb-4 card p-4 text-center">
+								<img
+									class="card-img-top text-center"
+									src="assets/images/avatar-gf066499fd_640.png"
+									alt="Avater"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">UCHE KUNLE</h5>
 
-							<span>Content Creator</span>
+									<span>Content Creator</span>
 
-							<p class="card-text pt-2">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. morbi
-								purus. Lorem ipsum dolor sit amet,
-							</p>
+									<p class="card-text pt-1">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										morbi purus. Lorem ipsum dolor sit amet,
+									</p>
 
-							<div class="d-flex justify-content-around px-3">
-								<i class="icons fa-brands fa-facebook"></i>
-								<i class="icons fa-brands fa-linkedin"></i>
-								<i class="icons fa-brands fa-instagram-square"></i>
-								<i class="icons fa-brands fa-twitter-square"></i>
+									<div class="d-flex justify-content-around px-4">
+										<i class="icons fa-brands fa-facebook"></i>
+										<i class="icons fa-brands fa-linkedin"></i>
+										<i class="icons fa-brands fa-instagram-square"></i>
+										<i class="icons fa-brands fa-twitter-square"></i>
+									</div>
+								</div>
 							</div>
 						</div>
+						<!--------------------End of item-------------------->
+
+						<div class="item">
+							<div class="mx-auto mb-4 card p-4 text-center">
+								<img
+									class="card-img-top text-center"
+									src="assets/images/avatar-gf066499fd_640.png"
+									alt="Avater"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">UCHE KUNLE</h5>
+
+									<span>Content Creator</span>
+
+									<p class="card-text pt-1">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										morbi purus. Lorem ipsum dolor sit amet,
+									</p>
+
+									<div class="d-flex justify-content-around px-4">
+										<i class="icons fa-brands fa-facebook"></i>
+										<i class="icons fa-brands fa-linkedin"></i>
+										<i class="icons fa-brands fa-instagram-square"></i>
+										<i class="icons fa-brands fa-twitter-square"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--------------------End of item-------------------->
+
+						<div class="item">
+							<div class="mx-auto mb-4 card p-4 text-center">
+								<img
+									class="card-img-top text-center"
+									src="assets/images/avatar-gf066499fd_640.png"
+									alt="Avater"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">UCHE KUNLE</h5>
+
+									<span>Content Creator</span>
+
+									<p class="card-text pt-1">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										morbi purus. Lorem ipsum dolor sit amet,
+									</p>
+
+									<div class="d-flex justify-content-around px-4">
+										<i class="icons fa-brands fa-facebook"></i>
+										<i class="icons fa-brands fa-linkedin"></i>
+										<i class="icons fa-brands fa-instagram-square"></i>
+										<i class="icons fa-brands fa-twitter-square"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--------------------End of item-------------------->
 					</div>
 				</div>
 			</div>
 		</section>
 
 		<!--------------------------------- JS files --------------------------------------->
+		<!---------------------- Font Awesome JS -------------------->
 		<script src="assets/js/all.min.js"></script>
+		<!---------------------- Bootstrap JS -------------------->
 		<script src="assets/js/bootstrap.bundle.min.js"></script>
+		<!---------------------- Owl Carousel JS -------------------->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+			integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+			integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script>
+			$(".owl-carousel").owlCarousel({
+				loop: true,
+				margin: 10,
+				nav: true,
+				responsive: {
+					0: {
+						items: 1,
+					},
+					600: {
+						items: 2,
+					},
+					1000: {
+						items: 3,
+					},
+				},
+			});
+		</script>
 	</body>
 </html>
